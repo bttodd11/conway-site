@@ -1,0 +1,21 @@
+#videoSection {
+    background-color: black;
+    text-align: center;
+}
+.videoTitle {
+    font-size: 50px;
+    padding-top: 8%;
+    color: red;
+}
+.item {
+    border: 1px solid red;
+    margin: 5%
+}
+.alice-carousel__next-btn{
+    width: 3% !important;
+
+}
+
+.alice-carousel__prev-btn{
+    width: 3% !important;
+}

@@ -1,0 +1,62 @@
+GLobal Settings
+.navContainer {
+    width: 100%;
+    background-color: black;
+  }
+  .navLinks {
+    font-size: 25px !important;
+    color: white !important;
+    letter-spacing: 94px;
+  }
+  .nav-link {
+    color: white !important;
+    font-weight: bolder;
+    float: right;
+  }
+  
+  
+  /* // Small devices (landscape phones, 576px and up) */
+  @media only screen and (min-width: 225px) and (max-width: 450px) and (orientation: portrait) {
+  }
+  
+  @media only screen and (min-width: 480px) and (max-width: 1000px) and (orientation: landscape) {
+  }
+  
+  /* Tablet Portrait */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .navContainer {
+      background-color: #e9dedc;
+      -webkit-box-shadow: 0 10px 5px #777;
+      -moz-box-shadow: 0 10px 5px #777;
+      box-shadow: 0 2px 2px #777;
+    }
+    .navLinks {
+      font-family: "Permanent Marker", cursive;
+      font-size: 25px !important;
+      color: white !important;
+      padding: 1% !important;
+      letter-spacing: 4px;
+    }
+    .nav-link {
+      color: white !important;
+      font-weight: bolder;
+    }
+  }
+  /* 
+  Laptops Screens */
+  @media only screen and (min-width: 1145px) {
+    .navContainer {
+
+    }
+    .navLinks {
+      font-family: "Permanent Marker", cursive;
+      font-size: 25px !important;
+      color: white !important;
+      letter-spacing: 4px;
+    }
+  
+  }
+  
+  /* Extra Large Screens */
+  @media only screen and (min-width: 1281px) {
+  }
