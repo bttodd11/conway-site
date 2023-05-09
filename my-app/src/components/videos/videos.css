@@ -8,14 +8,13 @@
     color: red;
 }
 .item {
-    border: 1px solid red;
+    border: 1px solid GREY;
     margin: 5%
 }
 .alice-carousel__next-btn{
     width: 3% !important;
 
 }
-
 .alice-carousel__prev-btn{
     width: 3% !important;
 }
