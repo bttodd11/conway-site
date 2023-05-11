@@ -1,0 +1,9 @@
+#contactSection {
+    background-color: black;
+    padding-top: 3%;
+}
+.contactTitle {
+    color:red;
+    font-size: 50px;
+    padding-bottom: 4%;
+}
