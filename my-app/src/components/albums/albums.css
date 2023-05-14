@@ -1,0 +1,14 @@
+#albumSection {
+  background-color: black !important;
+
+}
+
+.albumTitle {
+  font-size: 50px;
+  color: red;
+}
+
+.albumCover {
+  height: 400px;
+  width: 400px;
+}

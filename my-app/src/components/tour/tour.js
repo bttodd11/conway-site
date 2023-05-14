@@ -14,7 +14,7 @@ import "./tour.css";
 let tour = () => {
   return (
     <div id="tourSection">
-      <Container fluid="md">
+      <Container fluid>
         <Row>
           <h4 className="tourTitle">Won't He Do Tour</h4>
           <Col>

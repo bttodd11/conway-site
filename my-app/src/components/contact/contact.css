@@ -2,8 +2,28 @@
     background-color: black;
     padding-top: 3%;
 }
+.socialMediaSection {
+    margin-top: 5%;
+}
+.mailingListSection {
+    text-align: center;
+    border: 1px solid red;
+    margin: auto 0;
+}
+.formSection {
+    margin: auto;
+}
+.formInput {
+    margin: 7% !important;
+}
 .contactTitle {
     color:red;
     font-size: 50px;
     padding-bottom: 4%;
+    text-transform: uppercase;
+}
+.icons {
+    padding: 1%;
+    height: 4%;
+    width: 4%;
 }
