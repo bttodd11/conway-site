@@ -1,14 +1,15 @@
 import React from "react";
 import { Nav, Navbar, Container } from 'react-bootstrap';
-import './nav.css';
+import "./nav.css";
 
 
 
-let nav = props => {
+let nav = () => {
   return (
+    <div id="navContainer">
     <Navbar>
-    <Container fluid className="navContainer justify-content-center">
-      <Nav className="justify-content-center">
+    <Container fluid className="justify-content-center">
+      <Nav className="justify-content-center textLinks">
         <Nav.Link href="#videos">Videos</Nav.Link>
         <Nav.Link href="#album">Album</Nav.Link>
         <Nav.Link href="#tour">Tour</Nav.Link>
@@ -16,6 +17,7 @@ let nav = props => {
       </Nav>
     </Container>
   </Navbar>
+  </div>
   );
 };
 

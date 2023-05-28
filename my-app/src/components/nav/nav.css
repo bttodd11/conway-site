@@ -1,15 +1,16 @@
 GLobal Settings
-.navContainer {
+#navContainer {
     width: 100%;
     background-color: black;
+    font-family: 'Cairo', sans-serif !important;
+    
   }
   .navLinks {
-    font-size: 25px !important;
-    color: white !important;
+    color: red !important;
     letter-spacing: 94px;
   }
   .nav-link {
-    color: white !important;
+    color: #d00404 !important;
     font-weight: bolder;
     float: right;
   }
@@ -24,11 +25,11 @@ GLobal Settings
   
   /* Tablet Portrait */
   @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-    .navContainer {
-      background-color: #e9dedc;
-      -webkit-box-shadow: 0 10px 5px #777;
-      -moz-box-shadow: 0 10px 5px #777;
-      box-shadow: 0 2px 2px #777;
+    #navContainer {
+      background-color: black;
+      font-family: 'Cairo', sans-serif !important;
+      font-size: 20px !important;
+
     }
     .navLinks {
       font-family: "Permanent Marker", cursive;
@@ -45,14 +46,11 @@ GLobal Settings
   /* 
   Laptops Screens */
   @media only screen and (min-width: 1145px) {
-    .navContainer {
-
-    }
-    .navLinks {
-      font-family: "Permanent Marker", cursive;
-      font-size: 25px !important;
-      color: white !important;
-      letter-spacing: 4px;
+    #navContainer {
+    font-family: 'Cairo', sans-serif !important;
+    font-size: 20px;
+    width: 100%;
+    color: red;
     }
   
   }
