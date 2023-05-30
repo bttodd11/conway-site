@@ -1,14 +1,18 @@
 #tourSection {
     background-color: black;
+    padding-top: 4%;
 }
 
 .tourPosterImage {
-    width: 40%;
+    width: 30%;
+    opacity: .5;
 }
 
 .tourTitle {
     font-size: 50px;
-    color: red;
+    color: #d00404;
+    padding-bottom: 3%;
+    font-family: 'Cinzel';
 }
 
 .list-group-item {

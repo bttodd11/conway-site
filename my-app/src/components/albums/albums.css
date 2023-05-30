@@ -5,8 +5,9 @@
 }
 #albumSection h3 {
   font-family: 'Kalam';
+  opacity: .6;
   text-shadow:
-      0 0 7px #fff,
+      0 0 20px #fff,
       0 0 10px #fff,
       0 0 21px #fff,
       0 0 42px #fff,
@@ -16,16 +17,16 @@
       0 0 151px #d00404;
 }
 #albumSection p {
-  font-family: 'Kalam';
-  text-shadow:
-      0 0 7px #fff,
-      0 0 10px #fff,
-      0 0 21px #fff,
-      0 0 42px #fff,
-      0 0 82px #fff,
-      0 0 92px #d00404,
-      0 0 102px #d00404,
-      0 0 151px #d00404;
+  opacity: .6;
+  text-shadow: 
+  0 0 40px #fff,
+  0 0 40px #fff,
+  0 0 21px #fff,
+  0 0 42px #fff,
+  0 0 82px #fff,
+  0 0 92px #d00404,
+  0 0 102px #d00404,
+  0 0 151px #d00404;
 }
 
 .albumTitle {
@@ -34,10 +35,19 @@
   padding-bottom: 3%;
   font-family: 'Cinzel';
   letter-spacing: 3px;
-  
 }
+
 .linkButton {
-  display: block
+  opacity: .8;
+  text-shadow:
+  0 0 50px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 42px #fff,
+  0 0 82px #fff,
+  0 0 92px #d00404,
+  0 0 102px #d00404,
+  0 0 151px #d00404;
 }
 
 .albumCover {

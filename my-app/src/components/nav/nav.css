@@ -3,7 +3,6 @@ GLobal Settings
     width: 100%;
     background-color: black;
     font-family: 'Cairo', sans-serif !important;
-    
   }
   .navLinks {
     color: red !important;
@@ -13,6 +12,7 @@ GLobal Settings
     color: #d00404 !important;
     font-weight: bolder;
     float: right;
+    opacity: .6;
   }
   
   
@@ -31,17 +31,6 @@ GLobal Settings
       font-size: 20px !important;
 
     }
-    .navLinks {
-      font-family: "Permanent Marker", cursive;
-      font-size: 25px !important;
-      color: white !important;
-      padding: 1% !important;
-      letter-spacing: 4px;
-    }
-    .nav-link {
-      color: white !important;
-      font-weight: bolder;
-    }
   }
   /* 
   Laptops Screens */
@@ -50,7 +39,6 @@ GLobal Settings
     font-family: 'Cairo', sans-serif !important;
     font-size: 20px;
     width: 100%;
-    color: red;
     }
   
   }

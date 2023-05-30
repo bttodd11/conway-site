@@ -1,20 +1,42 @@
 #videoSection {
     background-color: black;
     text-align: center;
+    font-family: 'Cinzel';
+    padding-top: 4%;
+
 }
 .videoTitle {
     font-size: 50px;
-    padding-top: 8%;
-    color: red;
+    padding-bottom: 3%;
+    color: #d00404;
 }
 .item {
-    border: 1px solid GREY;
-    margin: 5%
+    border: .2px solid #d00404;
+    margin: 5%;
+    opacity: .4;
 }
 .alice-carousel__next-btn{
     width: 3% !important;
-
+    font-size: 40px;
+}
+.alice-carousel__next-btn-item{
+    color: #d00404;
+    opacity: .6;
+}
+.alice-carousel__prev-btn-item{
+    color: #d00404;
+    opacity: .6;
 }
 .alice-carousel__prev-btn{
     width: 3% !important;
+    font-size: 40px;
+}
+.alice-carousel__dots-item:not(.__custom).__active{
+    background-color: #d00404;
+}
+.alice-carousel__dots-item:not(.__custom):hover{
+    background-color: #d00404;
+}
+.alice-carousel__dots-item:not(.__custom){
+    background-color: #f7866f;
 }

@@ -33,7 +33,7 @@ let albums = () => {
             <Carousel.Caption>
               <h3>Greeting Earthlings</h3>
               <p>2022</p>
-              <Button variant="light">Listen</Button>{" "}
+              <Button variant="outline-light" className="linkButton">Listen</Button>{" "}
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -45,7 +45,7 @@ let albums = () => {
             <Carousel.Caption>
               <h3>Reject 2</h3>
               <p>2015</p>
-              <Button variant="light">Listen</Button>{" "}
+              <Button variant="outline-light" className="linkButton">Listen</Button>{" "}
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -54,7 +54,7 @@ let albums = () => {
             <Carousel.Caption>
               <h3>Blakk Tape</h3>
               <p>2018</p>
-              <Button variant="light">Listen</Button>{" "}
+              <Button variant="outline-light" className="linkButton">Listen</Button>{" "}
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -67,7 +67,7 @@ let albums = () => {
             <Carousel.Caption>
               <h3>Don't Get Scared</h3>
               <p>2016</p>
-              <Button variant="light">Listen</Button>{" "}
+              <Button variant="outline-light" className="linkButton">Listen</Button>{" "}
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -76,7 +76,7 @@ let albums = () => {
             <Carousel.Caption>
               <h3>Everybody is F.O.O.D</h3>
               <p>2018</p>
-              <Button variant="light">Listen</Button>{" "}
+              <Button variant="outline-light" className="linkButton">Listen</Button>{" "}
             </Carousel.Caption>
           </Carousel.Item>
 
@@ -85,7 +85,7 @@ let albums = () => {
             <Carousel.Caption>
               <h3>G.O.A.T</h3>
               <p>2017</p>
-              <Button variant="light">Listen</Button>{" "}
+              <Button variant="outline-light" className="linkButton">Listen</Button>{" "}
             </Carousel.Caption>
           </Carousel.Item>
 
@@ -94,7 +94,7 @@ let albums = () => {
             <Carousel.Caption>
               <h3>If It Bleeds It Can Be Killed</h3>
               <p>2021</p>
-              <Button variant="light">Listen</Button>{" "}
+              <Button variant="outline-light" className="linkButton">Listen</Button>{" "}
             </Carousel.Caption>
           </Carousel.Item>
 
@@ -107,7 +107,7 @@ let albums = () => {
             <Carousel.Caption>
               <h3>Look What I Became</h3>
               <p>2019</p>
-              <Button variant="light">Listen</Button>{" "}
+              <Button variant="outline-light" className="linkButton">Listen</Button>{" "}
             </Carousel.Caption>
           </Carousel.Item>
 
@@ -116,7 +116,7 @@ let albums = () => {
             <Carousel.Caption>
               <h3>More Steroids</h3>
               <p>2017</p>
-              <Button variant="light">Listen</Button>{" "}
+              <Button variant="outline-light" className="linkButton">Listen</Button>{" "}
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -128,7 +128,7 @@ let albums = () => {
             <Carousel.Caption>
               <h3>Reject On Steroids</h3>
               <p>2017</p>
-              <Button variant="light">Listen</Button>{" "}
+              <Button variant="outline-light" className="linkButton">Listen</Button>{" "}
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -136,7 +136,7 @@ let albums = () => {
             <Carousel.Caption>
               <h3>E.I.F 2</h3>
               <p>2018</p>
-              <Button variant="light">Listen</Button>{" "}
+              <Button variant="outline-light" className="linkButton">Listen</Button>{" "}
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -144,7 +144,7 @@ let albums = () => {
             <Carousel.Caption>
               <h3>From A King To A GOD </h3>
               <p>2020</p>
-              <Button variant="light">Listen</Button>{" "}
+              <Button variant="outline-light" className="linkButton">Listen</Button>{" "}
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -156,7 +156,7 @@ let albums = () => {
             <Carousel.Caption>
               <h3>Reject On Steroids</h3>
               <p>2017</p>
-              <Button variant="light">Listen</Button>{" "}
+              <Button variant="outline-light" className="linkButton">Listen</Button>{" "}
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -168,7 +168,7 @@ let albums = () => {
             <Carousel.Caption>
               <h3>God Don't Make Mistakes</h3>
               <p>2022</p>
-              <Button variant="light">Listen</Button>{" "}
+              <Button variant="outline-light" className="linkButton">Listen</Button>{" "}
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -176,7 +176,7 @@ let albums = () => {
             <Carousel.Caption>
               <h3>La Maquina</h3>
               <p>2021</p>
-              <Button variant="light">Listen</Button>{" "}
+              <Button variant="outline-light" className="linkButton">Listen</Button>{" "}
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -184,7 +184,7 @@ let albums = () => {
             <Carousel.Caption>
               <h3>LULU</h3>
               <p>2020</p>
-              <Button variant="light">Listen</Button>{" "}
+              <Button variant="outline-light" className="linkButton">Listen</Button>{" "}
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -196,7 +196,7 @@ let albums = () => {
             <Carousel.Caption>
               <h3>No One Mourns Mourns the Wicked</h3>
               <p>2020</p>
-              <Button variant="light">Listen</Button>{" "}
+              <Button variant="outline-light" className="linkButton">Listen</Button>{" "}
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
