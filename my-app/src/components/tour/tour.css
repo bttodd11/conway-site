@@ -27,29 +27,17 @@
     color: #d00404
 }
 
-@media only screen and (min-width: 1145px) {
-
-    .tableHeader{
-    font-size: 23px;
-    font-family: 'Cinzel';
-    letter-spacing: 3px;
-    }
-
-    #tourSection td {
-    font-family: 'Cinzel';
-    font-size: 18px;
-    color: white;
-    text-shadow: 
-    0 0 5px #fff,
-    0 0 40px #d00404;
-    }
-
-}
-
 
 
 /* // Small devices (landscape phones, 576px and up) */
 @media only screen and (min-width: 225px) and (max-width: 450px) and (orientation: portrait) {
+
+    #tourSection td:nth-child(3){
+        display: none;
+        }
+    #tourSection th:nth-child(3){
+        display: none;
+    }
 
 }
 
@@ -62,6 +50,21 @@
 /* 
 Laptops Screens */
 @media only screen and (min-width: 1145px) {
+
+    .tableHeader{
+        font-size: 23px;
+        font-family: 'Cinzel';
+        letter-spacing: 3px;
+        }
+    
+        #tourSection td {
+        font-family: 'Cinzel';
+        font-size: 18px;
+        color: white;
+        text-shadow: 
+        0 0 5px #fff,
+        0 0 40px #d00404;
+        }
 
 }
 
