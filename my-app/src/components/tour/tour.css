@@ -17,13 +17,54 @@
 
 .list-group-item {
     background-color: black !important;
-    color: red !important;
+    color: #d00404 !important;
 }
 
 .listGroup {
     margin-top: 5%;
 }
 .tableHeader {
-    text-decoration: 1px red underline;
-    color: red;
+    color: #d00404
+}
+
+@media only screen and (min-width: 1145px) {
+
+    .tableHeader{
+    font-size: 23px;
+    font-family: 'Cinzel';
+    letter-spacing: 3px;
+    }
+
+    #tourSection td {
+    font-family: 'Cinzel';
+    font-size: 18px;
+    color: white;
+    text-shadow: 
+    0 0 5px #fff,
+    0 0 40px #d00404;
+    }
+
+}
+
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 225px) and (max-width: 450px) and (orientation: portrait) {
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1000px) and (orientation: landscape) {
+}
+
+/* Tablet Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+}
+/* 
+Laptops Screens */
+@media only screen and (min-width: 1145px) {
+
+}
+
+/* Extra Large Screens */
+@media only screen and (min-width: 1281px) {
 }

@@ -11,7 +11,6 @@
     color: #d00404;
 }
 .item {
-    border: .2px solid #d00404;
     margin: 5%;
     opacity: .4;
 }
@@ -39,4 +38,41 @@
 }
 .alice-carousel__dots-item:not(.__custom){
     background-color: #f7866f;
+}
+
+
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 225px) and (max-width: 450px) and (orientation: portrait) {
+    .videoTitle {
+        font-size: 50px;
+    }
+    .alice-carousel__next-btn{
+        width: 40% !important;
+        font-size: 60px;
+    }
+    .alice-carousel__prev-btn{
+        font-size: 60px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1000px) and (orientation: landscape) {
+}
+
+/* Tablet Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+}
+/* 
+Laptops Screens */
+@media only screen and (min-width: 1145px) {
+    .videoTitle {
+    font-size: 50px;
+    padding-bottom: 3%;
+}
+
+}
+
+/* Extra Large Screens */
+@media only screen and (min-width: 1281px) {
 }

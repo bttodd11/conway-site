@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  Row,
-  Container,
-  Col,
-  ListGroup,
-  ListGroupItem,
-  Table,
-} from "react-bootstrap";
+import { Row, Container, Col, ListGroup } from "react-bootstrap";
 import tourPoster from "../../img/tourPoster.png";
 import ticket from "../../img/ticket.png";
 import "./tour.css";

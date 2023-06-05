@@ -1,29 +1,70 @@
 #contactSection {
     background-color: black;
     padding-top: 3%;
+    text-align: center;
+}
+.contactGroup {
+    margin: auto;
+
 }
 .socialMediaSection {
     margin-top: 5%;
 }
 .mailingListSection {
     text-align: center;
-    border: 1px solid red;
     margin: auto 0;
+    box-shadow: #d00404  0px 0px 20px;
+    margin-right: 3%;
+    padding-bottom: 2%;
 }
 .formSection {
-    margin: auto;
+    margin: auto;  
+    width: 40% !important;
 }
 .formInput {
-    margin: 7% !important;
+    margin: 4% !important;
+}
+.bookingSection {
+    box-shadow: #d00404  0px 0px 25px;
+}
+.bookingButton {
+    background-color: #d00404 !important;
+    border: 2px solid #d00404 !important;
+}
+.buttonShift {
+    padding-top: 5%;
 }
 .contactTitle {
-    color:red;
+    color: #d00404;
     font-size: 50px;
-    padding-bottom: 4%;
     text-transform: uppercase;
+    font-family: 'Cinzel';
+    padding-bottom: 5%;
 }
 .icons {
     padding: 1%;
     height: 4%;
     width: 4%;
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 225px) and (max-width: 450px) and (orientation: portrait) {
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1000px) and (orientation: landscape) {
+}
+
+/* Tablet Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+}
+/* 
+Laptops Screens */
+@media only screen and (min-width: 1145px) {
+
+}
+
+/* Extra Large Screens */
+@media only screen and (min-width: 1281px) {
 }

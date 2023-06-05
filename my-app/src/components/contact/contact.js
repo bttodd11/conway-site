@@ -11,10 +11,10 @@ let contact = (props) => {
     <div id="contactSection">
       
       <Container fluid>
-        <Row>
-          <Col className="mailingListSection">
+        <Row className="justify-content-center">
+          <Col className="mailingListSection" md="4" sm="12">
           <h4 className="contactTitle">Mailing List</h4>
-          <Form.Group as={Col} md="4" controlId="validationCustom01" className="formSection" >
+          <Form.Group  controlId="validationCustom01" className="formSection" >
           <Form.Control
             required
             type="text"
@@ -25,8 +25,7 @@ let contact = (props) => {
             required
             type="text"
             placeholder="Last Name"
-            className="formInput"
-          />
+            className="formInput"/>
                <Form.Control
             required
             type="text"
@@ -35,12 +34,14 @@ let contact = (props) => {
           />
           </Form.Group>
           </Col>
-          <Col>
+          <Col className="bookingSection" as={Col} md="4" sm="12">
             {" "}
             <h4 className="contactTitle">Bookings</h4>
-            <Button variant="warning" sz="lg">
+            <p className="buttonShift">
+            <Button variant="warning" sz="lg" className="bookingButton">
               Click For Bookings
             </Button>{" "}
+            </p>
           </Col>
         </Row>
       </Container>

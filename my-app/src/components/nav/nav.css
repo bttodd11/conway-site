@@ -4,10 +4,6 @@ GLobal Settings
     background-color: black;
     font-family: 'Cairo', sans-serif !important;
   }
-  .navLinks {
-    color: red !important;
-    letter-spacing: 94px;
-  }
   .nav-link {
     color: #d00404 !important;
     font-weight: bolder;
@@ -18,6 +14,9 @@ GLobal Settings
   
   /* // Small devices (landscape phones, 576px and up) */
   @media only screen and (min-width: 225px) and (max-width: 450px) and (orientation: portrait) {
+    .nav-link {
+    letter-spacing: 3px;
+    }
   }
   
   @media only screen and (min-width: 480px) and (max-width: 1000px) and (orientation: landscape) {
@@ -36,7 +35,6 @@ GLobal Settings
   Laptops Screens */
   @media only screen and (min-width: 1145px) {
     #navContainer {
-    font-family: 'Cairo', sans-serif !important;
     font-size: 20px;
     width: 100%;
     }
