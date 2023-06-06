@@ -1,8 +1,20 @@
 #tourSection {
     background-color: black;
     padding-top: 4%;
+    text-align: center;
 }
+ #tourSection th {
+    font-family: 'Cinzel';
+ }
+ #tourSection td {
+    font-family: 'Kalam';
+    font-size: 18px;
+    color: white;
+    text-shadow: 
+    0 0 5px #fff,
+    0 0 40px #d00404;
 
+ }
 .tourPosterImage {
     width: 30%;
     opacity: .5;
@@ -27,8 +39,6 @@
     color: #d00404
 }
 
-
-
 /* // Small devices (landscape phones, 576px and up) */
 @media only screen and (min-width: 225px) and (max-width: 450px) and (orientation: portrait) {
 
@@ -37,6 +47,21 @@
         }
     #tourSection th:nth-child(3){
         display: none;
+    }
+    #tourSection th {
+        font-size: 20px;
+        text-decoration: 3px underline solid #d00404;
+        padding-bottom: 5%;
+    }
+    #tourSection td {
+        font-size: 16px;
+    }
+    .tourPosterImage {
+        width: 95%;
+    }
+    .tourTitle {
+        font-size: 50px;
+        padding-bottom: 5%;
     }
 
 }

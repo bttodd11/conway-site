@@ -51,6 +51,26 @@
 /* // Small devices (landscape phones, 576px and up) */
 @media only screen and (min-width: 225px) and (max-width: 450px) and (orientation: portrait) {
 
+    .contactTitle {
+        padding-top: 4%;
+    }
+    .formSection {
+        width: 60% !important;
+        padding-bottom: 10%;
+    }
+    .mailingListSection {
+        margin-bottom: 10%;
+        margin-top: 4% !important;
+    }
+    .bookingSection {
+        padding-top: 4%;
+        padding-bottom: 20%;
+    }
+    .icons {
+        height: 10%;
+        width: 10%;
+        margin: 2%;
+    }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 1000px) and (orientation: landscape) {

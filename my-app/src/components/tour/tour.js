@@ -9,7 +9,7 @@ let tour = () => {
     <div id="tourSection">
       <Container fluid>
         <Row>
-          <h4 className="tourTitle">Won't He Do Tour</h4>
+          <h4 className="tourTitle">Won't He Do It Tour</h4>
           <Col>
             <img src={tourPoster} className="tourPosterImage" alt="" />
           </Col>
