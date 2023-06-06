@@ -63,7 +63,6 @@ let albums = () => {
               src={DontGetScared}
               alt="DontGetScared"
             />
-
             <Carousel.Caption>
               <h3>Don't Get Scared</h3>
               <p>2016</p>
@@ -79,7 +78,6 @@ let albums = () => {
               <Button variant="outline-light" className="linkButton">Listen</Button>{" "}
             </Carousel.Caption>
           </Carousel.Item>
-
           <Carousel.Item>
             <img className="albumCover" src={GOAT} alt="GOAT" />
             <Carousel.Caption>

@@ -3,18 +3,20 @@
     padding-top: 4%;
     text-align: center;
 }
- #tourSection th {
+
+#tourSection th {
     font-family: 'Cinzel';
- }
- #tourSection td {
+}
+
+#tourSection td {
     font-family: 'Kalam';
     font-size: 18px;
     color: white;
-    text-shadow: 
-    0 0 5px #fff,
-    0 0 40px #d00404;
+    text-shadow:
+        0 0 5px #fff,
+        0 0 40px #d00404;
+}
 
- }
 .tourPosterImage {
     width: 30%;
     opacity: .5;
@@ -35,6 +37,7 @@
 .listGroup {
     margin-top: 5%;
 }
+
 .tableHeader {
     color: #d00404
 }
@@ -42,23 +45,28 @@
 /* // Small devices (landscape phones, 576px and up) */
 @media only screen and (min-width: 225px) and (max-width: 450px) and (orientation: portrait) {
 
-    #tourSection td:nth-child(3){
-        display: none;
-        }
-    #tourSection th:nth-child(3){
+    #tourSection td:nth-child(3) {
         display: none;
     }
+
+    #tourSection th:nth-child(3) {
+        display: none;
+    }
+
     #tourSection th {
         font-size: 20px;
         text-decoration: 3px underline solid #d00404;
         padding-bottom: 5%;
     }
+
     #tourSection td {
         font-size: 16px;
     }
+
     .tourPosterImage {
         width: 95%;
     }
+
     .tourTitle {
         font-size: 50px;
         padding-bottom: 5%;
@@ -67,32 +75,44 @@
 }
 
 @media only screen and (min-width: 480px) and (max-width: 1000px) and (orientation: landscape) {
+    .tourPosterImage {
+        width: 85%;
+    }
+
+    #tourSection th {
+        font-size: 30px;
+        text-decoration: 3px underline solid #d00404;
+        padding-bottom: 2%;
+    }
+
+    #tourSection td {
+        font-size: 20px;
+    }
 }
 
 /* Tablet Portrait */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {}
+
 /* 
 Laptops Screens */
 @media only screen and (min-width: 1145px) {
 
-    .tableHeader{
+    .tableHeader {
         font-size: 23px;
         font-family: 'Cinzel';
         letter-spacing: 3px;
-        }
-    
-        #tourSection td {
+    }
+
+    #tourSection td {
         font-family: 'Cinzel';
         font-size: 18px;
         color: white;
-        text-shadow: 
-        0 0 5px #fff,
-        0 0 40px #d00404;
-        }
+        text-shadow:
+            0 0 5px #fff,
+            0 0 40px #d00404;
+    }
 
 }
 
 /* Extra Large Screens */
-@media only screen and (min-width: 1281px) {
-}
+@media only screen and (min-width: 1281px) {}

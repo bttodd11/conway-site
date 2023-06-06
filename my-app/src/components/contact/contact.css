@@ -46,6 +46,10 @@
     height: 4%;
     width: 4%;
 }
+.submitButton {
+    background-color: #d00404 !important;
+    border: 2px solid #d00404 !important;
+}
 
 
 /* // Small devices (landscape phones, 576px and up) */
@@ -74,6 +78,24 @@
 }
 
 @media only screen and (min-width: 480px) and (max-width: 1000px) and (orientation: landscape) {
+    #contactSection {
+        padding-top: 8%;
+    }
+    .contactTitle {
+        font-size: 30px;
+        padding-top: 5%;
+    }
+    .formSection {
+        width: 70% !important;
+    }
+    .submitButton {
+        margin-top: 5%;
+        padding: 2% 15% 2% 15% !important;
+    }
+    .buttonShift {
+        padding-top: 20%;
+    }
+
 }
 
 /* Tablet Portrait */

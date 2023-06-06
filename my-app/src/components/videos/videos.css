@@ -59,6 +59,15 @@
 }
 
 @media only screen and (min-width: 480px) and (max-width: 1000px) and (orientation: landscape) {
+
+    .alice-carousel__next-btn{
+        width: 25% !important;
+        font-size: 60px;
+    }
+    .alice-carousel__prev-btn{
+        width: 15% !important;
+        font-size: 60px;
+    }
 }
 
 /* Tablet Portrait */

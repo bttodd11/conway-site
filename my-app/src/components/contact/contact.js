@@ -33,6 +33,9 @@ let contact = (props) => {
             className="formInput"
           />
           </Form.Group>
+             <Button variant="warning" sz="lg" className="submitButton">
+              Submit
+            </Button>{" "}
           </Col>
           <Col className="bookingSection" as={Col} md="4" sm="12">
             {" "}
