@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/conway-site/static/css/main.4af5f1f2.css",
+    "main.js": "/conway-site/static/js/main.da4a355e.js",
+    "static/js/787.28cb0dcd.chunk.js": "/conway-site/static/js/787.28cb0dcd.chunk.js",
+    "static/media/tourPoster.png": "/conway-site/static/media/tourPoster.17d457fd10b5102cb9ad.png",
+    "static/media/wontHeDoIt.png": "/conway-site/static/media/wontHeDoIt.3e08f204bb0a74deb8f8.png",
+    "static/media/GodDontMakeMistakes.png": "/conway-site/static/media/GodDontMakeMistakes.4a2f480473793f24c5f5.png",
+    "static/media/LULU.png": "/conway-site/static/media/LULU.4c2bf3d520046722dc11.png",
+    "static/media/goat.png": "/conway-site/static/media/goat.a58dd2d9bc5361ad6ef2.png",
+    "static/media/LaMaquina.png": "/conway-site/static/media/LaMaquina.f9cfe1e8fe5425913a64.png",
+    "static/media/devilsReject2.png": "/conway-site/static/media/devilsReject2.a4847765240940bddeff.png",
+    "static/media/eif2.png": "/conway-site/static/media/eif2.dbd3db583da7de226cda.png",
+    "static/media/lookWhatIBecame.png": "/conway-site/static/media/lookWhatIBecame.c2425fb4f06441698f3c.png",
+    "static/media/rejectOnSteroids.png": "/conway-site/static/media/rejectOnSteroids.845415c2cebe148aae3c.png",
+    "static/media/greetingEarthlings.png": "/conway-site/static/media/greetingEarthlings.62652514526c75beb144.png",
+    "static/media/dontGetScared.png": "/conway-site/static/media/dontGetScared.ab3f99d56aa2073f874d.png",
+    "static/media/ifItBleedsItCanBeKilled.png": "/conway-site/static/media/ifItBleedsItCanBeKilled.8ea60bc768fd08a5abe5.png",
+    "static/media/FAKTAG.png": "/conway-site/static/media/FAKTAG.8e9ab5e621d1adacdd75.png",
+    "static/media/blakkTape.png": "/conway-site/static/media/blakkTape.5bcaad55f7aa0681e918.png",
+    "static/media/eif.png": "/conway-site/static/media/eif.0b2c7163adf2f804d01a.png",
+    "static/media/moreSteroids.png": "/conway-site/static/media/moreSteroids.cf48df8f4a505c932b4e.png",
+    "static/media/NoOneMournsTheWicked.png": "/conway-site/static/media/NoOneMournsTheWicked.3b0dc20e9c2e6d06f7a5.png",
+    "static/media/conwayName.png": "/conway-site/static/media/conwayName.1961d59f6c9edf918300.png",
+    "index.html": "/conway-site/index.html",
+    "main.4af5f1f2.css.map": "/conway-site/static/css/main.4af5f1f2.css.map",
+    "main.da4a355e.js.map": "/conway-site/static/js/main.da4a355e.js.map",
+    "787.28cb0dcd.chunk.js.map": "/conway-site/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4af5f1f2.css",
+    "static/js/main.da4a355e.js"
+  ]
+}
