@@ -1,21 +1,38 @@
-GLobal Settings
 #navContainer {
     width: 100%;
     background-color: black;
-    font-family: 'Cairo', sans-serif !important;
+    font-family: 'Cinzel';
+    margin: auto 0;
   }
-  .nav-link {
+  #navContainer .navLink {
     color: #d00404 !important;
     font-weight: bolder;
     float: right;
     opacity: .6;
+    font-family: 'Kalam';
+    text-decoration: none;
+    margin: 2%;
   }
+  #navContainer .navLink:nth-child(1){
+    margin-left: -10% !important;
+  }
+  .navbar-expand {
+    justify-content: center !important;
+  }
+ a {
+  color: #d00404 !important;
+  text-decoration: none !important;
+
+ }
   
   
   /* // Small devices (landscape phones, 576px and up) */
   @media only screen and (min-width: 225px) and (max-width: 450px) and (orientation: portrait) {
-    .nav-link {
-    letter-spacing: 3px;
+    #navContainer .navLink {
+      font-size: 20px;
+    }
+    #navContainer .navLink:nth-child(1){
+      margin-left: -10% !important;
     }
   }
   
@@ -24,19 +41,20 @@ GLobal Settings
   
   /* Tablet Portrait */
   @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-    #navContainer {
+    #navContainer .navLink{
       background-color: black;
-      font-family: 'Cairo', sans-serif !important;
+      font-family: 'Cinzel';
       font-size: 20px !important;
-
+    }
+    #navContainer .navLink:nth-child(1){
+      margin-left: -4% !important;
     }
   }
   /* 
   Laptops Screens */
   @media only screen and (min-width: 1145px) {
     #navContainer {
-    font-size: 20px;
-    width: 100%;
+    font-size: 30px;
     }
   
   }

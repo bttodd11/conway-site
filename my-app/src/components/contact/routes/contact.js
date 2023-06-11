@@ -1,9 +1,9 @@
 import React from "react";
 import { Button, Row, Col, Container, FormGroup, FormLabel, FormControl, Form } from "react-bootstrap";
-import instagram from "../../img/instagram.png";
-import facebook from "../../img/facebook.png";
-import twitter from "../../img/twitter.png";
-import youtube from "../../img/youtube.png";
+import instagram from "../../../img/instagram.png";
+import facebook from "../../../img/facebook.png";
+import twitter from "../../../img/twitter.png";
+import youtube from "../../../img/youtube.png";
 import "./contact.css";
 
 let contact = (props) => {
@@ -37,7 +37,7 @@ let contact = (props) => {
               Submit
             </Button>{" "}
           </Col>
-          <Col className="bookingSection" as={Col} md="4" sm="12">
+          <Col className="bookingSection" md="4" sm="12">
             {" "}
             <h4 className="contactTitle">Bookings</h4>
             <p className="buttonShift">
@@ -49,10 +49,10 @@ let contact = (props) => {
         </Row>
       </Container>
       <p className="socialMediaSection">
-        <img src={facebook} className="icons" alt="" />
-        <img src={twitter} className="icons" alt="" />
-        <img src={instagram} className="icons" alt="" />
-        <img src={youtube} className="icons" alt="" />
+        <a href="https://www.facebook.com/WhoIsConway/"><img src={facebook} className="icons" alt="" /></a>
+        <a href="https://twitter.com/WHOISCONWAY"><img src={twitter} className="icons" alt="" /></a>
+        <a href="https://www.instagram.com/whoisconway/?hl=en"><img src={instagram} className="icons" alt="" /></a>
+        <a href="https://www.youtube.com/channel/UCmpiOC6cI60pzlcN6xX-Wfg"><img src={youtube} className="icons" alt="" /></a>
       </p>
     </div>
   );

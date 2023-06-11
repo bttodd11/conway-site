@@ -1,5 +1,6 @@
 import React from "react";
 import { Nav, Navbar, Container } from 'react-bootstrap';
+import { HashLink as HashLink } from 'react-router-hash-link';
 import "./nav.css";
 
 
@@ -7,16 +8,15 @@ import "./nav.css";
 let nav = () => {
   return (
     <div id="navContainer">
-    <Navbar>
-    <Container fluid className="justify-content-center">
-      <Nav className="justify-content-center textLinks">
-        <Nav.Link href="#videos">Videos</Nav.Link>
-        <Nav.Link href="#album">Album</Nav.Link>
-        <Nav.Link href="#tour">Tour</Nav.Link>
-        <Nav.Link href="#contact">Contact</Nav.Link>
+      <Navbar>
+        <Nav>
+     <a className="navLink"><HashLink smooth to="#videoSection">Videos</HashLink></a>
+      <a className="navLink"><HashLink smooth to="#albumSection">Album</HashLink></a>
+      <a className="navLink"><HashLink smooth to="#tourSection">Tour</HashLink></a>
+      <a className="navLink"><HashLink smooth to="#contactSection">Contact</HashLink></a>
+      <a className="navLink" href="https://whoisconwaythemachine.myshopify.com/">Shop</a>
       </Nav>
-    </Container>
-  </Navbar>
+      </Navbar>
   </div>
   );
 };

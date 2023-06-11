@@ -46,7 +46,7 @@
 /* // Small devices (landscape phones, 576px and up) */
 @media only screen and (min-width: 225px) and (max-width: 450px) and (orientation: portrait) {
     .videoTitle {
-        font-size: 50px;
+        font-size: 40px;
     }
     .alice-carousel__next-btn{
         width: 15% !important;
@@ -72,6 +72,17 @@
 
 /* Tablet Portrait */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+     .videoTitle {
+        font-size: 60px;
+    }
+       .alice-carousel__next-btn{
+        width: 20% !important;
+        font-size: 90px;
+    }
+    .alice-carousel__prev-btn{
+        width: 15% !important;
+        font-size: 90px;
+    }
 }
 /* 
 Laptops Screens */

@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Container } from 'react-bootstrap';
-import header from "../../img/conwayName.png";
+import header from "../../../img/conwayName.png";
 import "./main.css";
 
 let main = (props) => {

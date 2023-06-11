@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Container, Col, ListGroup } from "react-bootstrap";
-import tourPoster from "../../img/tourPoster.png";
-import ticket from "../../img/ticket.png";
+import tourPoster from "../../../img/tourPoster.png";
+import ticket from "../../../img/ticket.png";
 import "./tour.css";
 
 let tour = () => {
@@ -31,7 +31,7 @@ let tour = () => {
                   <td>
                     {" "}
                     <span className="ticketProp">
-                      <img src={ticket} alt="" />
+                    <a href="https://www.ticketmaster.com/conway-the-machine-tickets/artist/2695496"> <img src={ticket} alt="" /> </a>
                     </span>
                   </td>
                 </tr>
@@ -42,7 +42,7 @@ let tour = () => {
                   <td>
                     {" "}
                     <span className="ticketProp">
-                      <img src={ticket} alt="" />
+                    <a href="https://www.ticketmaster.com/conway-the-machine-tickets/artist/2695496"> <img src={ticket} alt="" /> </a>
                     </span>
                   </td>
                 </tr>
@@ -53,7 +53,7 @@ let tour = () => {
                   <td>
                     {" "}
                     <span className="ticketProp">
-                      <img src={ticket} alt="" />
+                    <a href="https://www.ticketmaster.com/conway-the-machine-tickets/artist/2695496"> <img src={ticket} alt="" /> </a>
                     </span>
                   </td>
                 </tr>
@@ -64,7 +64,7 @@ let tour = () => {
                   <td>
                     {" "}
                     <span className="ticketProp">
-                      <img src={ticket} alt="" />
+                    <a href="https://www.ticketmaster.com/conway-the-machine-tickets/artist/2695496"> <img src={ticket} alt="" /> </a>
                     </span>
                   </td>
                 </tr>
@@ -75,7 +75,7 @@ let tour = () => {
                   <td>
                     {" "}
                     <span className="ticketProp">
-                      <img src={ticket} alt="" />
+                    <a href="https://www.ticketmaster.com/conway-the-machine-tickets/artist/2695496"> <img src={ticket} alt="" /> </a>
                     </span>
                   </td>
                   </tr>
@@ -86,7 +86,7 @@ let tour = () => {
                   <td>
                     {" "}
                     <span className="ticketProp">
-                      <img src={ticket} alt="" />
+                    <a href="https://www.ticketmaster.com/conway-the-machine-tickets/artist/2695496"> <img src={ticket} alt="" /> </a>
                     </span>
                   </td>
                   </tr>
@@ -97,7 +97,7 @@ let tour = () => {
                   <td>
                     {" "}
                     <span className="ticketProp">
-                      <img src={ticket} alt="" />
+                    <a href="https://www.ticketmaster.com/conway-the-machine-tickets/artist/2695496"> <img src={ticket} alt="" /> </a>
                     </span>
                   </td>
                   </tr>
@@ -108,7 +108,7 @@ let tour = () => {
                   <td>
                     {" "}
                     <span className="ticketProp">
-                      <img src={ticket} alt="" />
+                    <a href="https://www.ticketmaster.com/conway-the-machine-tickets/artist/2695496"> <img src={ticket} alt="" /> </a>
                     </span>
                   </td>
                 </tr>
@@ -119,7 +119,7 @@ let tour = () => {
                   <td>
                     {" "}
                     <span className="ticketProp">
-                      <img src={ticket} alt="" />
+                    <a href="https://www.ticketmaster.com/conway-the-machine-tickets/artist/2695496"> <img src={ticket} alt="" /> </a>
                     </span>
                   </td>
                 </tr>
@@ -141,7 +141,7 @@ let tour = () => {
                   <td>
                     {" "}
                     <span className="ticketProp">
-                      <img src={ticket} alt="" />
+                    <a href="https://www.ticketmaster.com/conway-the-machine-tickets/artist/2695496"> <img src={ticket} alt="" /> </a>
                     </span>
                   </td>
                 </tr>
@@ -152,7 +152,7 @@ let tour = () => {
                   <td>
                     {" "}
                     <span className="ticketProp">
-                      <img src={ticket} alt="" />
+                    <a href="https://www.ticketmaster.com/conway-the-machine-tickets/artist/2695496"> <img src={ticket} alt="" /> </a>
                     </span>
                   </td>
                 </tr>
@@ -163,7 +163,7 @@ let tour = () => {
                   <td>
                     {" "}
                     <span className="ticketProp">
-                      <img src={ticket} alt="" />
+                    <a href="https://www.ticketmaster.com/conway-the-machine-tickets/artist/2695496"> <img src={ticket} alt="" /> </a>
                     </span>
                   </td>
                 </tr>
@@ -174,7 +174,7 @@ let tour = () => {
                   <td>
                     {" "}
                     <span className="ticketProp">
-                      <img src={ticket} alt="" />
+                    <a href="https://www.ticketmaster.com/conway-the-machine-tickets/artist/2695496"> <img src={ticket} alt="" /> </a>
                     </span>
                   </td>
                 </tr>
@@ -185,7 +185,7 @@ let tour = () => {
                   <td>
                     {" "}
                     <span className="ticketProp">
-                      <img src={ticket} alt="" />
+                    <a href="https://www.ticketmaster.com/conway-the-machine-tickets/artist/2695496"> <img src={ticket} alt="" /> </a>
                     </span>
                   </td>
                 </tr>
@@ -196,7 +196,7 @@ let tour = () => {
                   <td>
                     {" "}
                     <span className="ticketProp">
-                      <img src={ticket} alt="" />
+                    <a href="https://www.ticketmaster.com/conway-the-machine-tickets/artist/2695496"> <img src={ticket} alt="" /> </a>
                     </span>
                   </td>
                 </tr>
@@ -207,7 +207,7 @@ let tour = () => {
                   <td>
                     {" "}
                     <span className="ticketProp">
-                      <img src={ticket} alt="" />
+                    <a href="https://www.ticketmaster.com/conway-the-machine-tickets/artist/2695496"> <img src={ticket} alt="" /> </a>
                     </span>
                   </td>
                 </tr>
@@ -218,7 +218,7 @@ let tour = () => {
                   <td>
                     {" "}
                     <span className="ticketProp">
-                      <img src={ticket} alt="" />
+                    <a href="https://www.ticketmaster.com/conway-the-machine-tickets/artist/2695496"> <img src={ticket} alt="" /> </a>
                     </span>
                   </td>
                 </tr>

@@ -12,7 +12,6 @@
 @media only screen and (min-width: 225px) and (max-width: 450px) and (orientation: portrait) {
     .conwayLogo {
             width: 100% !important;
-            padding-bottom: 9% !important;
         }
     
         .videoSize {
@@ -29,6 +28,10 @@
   /* 
   Laptops Screens */
   @media only screen and (min-width: 1145px) {
+    .conwayLogo {
+    padding-bottom: 9% !important;
+    }
+
   
   }
   
